@@ -9,7 +9,13 @@ linkProm.addEventListener(`click`, () => {
    
   })   
 
- let text = document.querySelector(`#prompt`).textContent
- 
- const result = linkProm
+
+ let tex = document.querySelector('.h1')
+
+ const result = tex
  document.querySelector(`#prompt`).textContent = result
+
+
+
+
+
