@@ -1,4 +1,8 @@
-let text = document.getElementsByTagName('text').textContent
+let tex = document.getElementById('text')
 
-let pep = text
+let result = document.querySelector('#duplicateField')
 
+
+tex.oninput = function() {
+    result.innerHTML = tex.value  
+}

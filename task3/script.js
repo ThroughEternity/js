@@ -26,62 +26,57 @@ function makeRed() {
 trafficLightEl.addEventListener('click', makeRed);
 
 
+const trafficLightEla = document.querySelector('#trafficLighta')
 
-const trafficLightE3 = document.getElementById('#trafficLighte');
-
-function makeGreen() {
-    trafficLightE3.style.background = ('green');
-    trafficLightE3.removeEventListener('click', makeGreen);
-    trafficLightE3.addEventListener('click', makeYellow);
+function makeGreena(){
+    trafficLightEla.style.background = ('green');
+    trafficLightEla.removeEventListener('click', makeGreena);
+    trafficLightEla.addEventListener('click', makeYellowa);
 }
 
-trafficLightE3.addEventListener('click', makeGreen);
+trafficLightEla.addEventListener('click', makeGreena);
 
-function makeYellow() {
-    trafficLightE3.style.background = ('yellow');
-    trafficLightE3.removeEventListener('click', makeYellow);
-    trafficLightE3.addEventListener('click', makeRed);
+function makeYellowa() {
+    trafficLightEla.style.background = ('yellow');
+    trafficLightEla.removeEventListener('click', makeYellowa);
+    trafficLightEla.addEventListener('click', makeReda);
 }
 
-trafficLightEl.addEventListener('click', makeYellow);
+trafficLightEla.addEventListener('click', makeYellowa);
 
 
-function makeRed() {
-    trafficLightE3.style.background = ('red');
-    trafficLightE3.removeEventListener('click', makeRed);
-    trafficLightE3.addEventListener('click', makeGreen);
+function makeReda() {
+    trafficLightEla.style.background = ('red');
+    trafficLightEla.removeEventListener('click', makeReda);
+    trafficLightEla.addEventListener('click', makeGreena);
 }
 
-trafficLightE3.addEventListener('click', makeRed);
+trafficLightEla.addEventListener('click', makeReda);
 
 
+const trafficLightElb = document.querySelector('#trafficLightb');
 
-
-
-
-const trafficLightE2 = document.querySelector('#trafficLighta');
-
-function makeGreen() {
-    trafficLightE2.style.background = ('green');
-    trafficLightE2.removeEventListener('click', makeGreen);
-    trafficLightE2.addEventListener('click', makeYellow);
+function makeGreenb() {
+    trafficLightElb.style.background = ('green');
+    trafficLightElb.removeEventListener('click', makeGreenb);
+    trafficLightElb.addEventListener('click', makeYellowb);
 }
 
-trafficLightEl.addEventListener('click', makeGreen);
+trafficLightElb.addEventListener('click', makeGreenb);
 
-function makeYellow() {
-    trafficLightE2.style.background = ('yellow');
-    trafficLightE2.removeEventListener('click', makeYellow);
-    trafficLightE2.addEventListener('click', makeRed);
+function makeYellowb() {
+    trafficLightElb.style.background = ('yellow');
+    trafficLightElb.removeEventListener('click', makeYellowb);
+    trafficLightElb.addEventListener('click', makeRedb);
 }
 
-trafficLightEl.addEventListener('click', makeYellow);
+trafficLightElb.addEventListener('click', makeYellowb);
 
 
-function makeRed() {
-    trafficLightE2.style.background = ('red');
-    trafficLightE2.removeEventListener('click', makeRed);
-    trafficLightE2.addEventListener('click', makeGreen);
+function makeRedb() {
+    trafficLightElb.style.background = ('red');
+    trafficLightElb.removeEventListener('click', makeRedb);
+    trafficLightElb.addEventListener('click', makeGreenb);
 }
 
-trafficLightE2.addEventListener('click', makeRed);
+trafficLightElb.addEventListener('click', makeRedb);
