@@ -32,8 +32,8 @@ min-height: 100vh;
 
 
 .trafficLight.yellow{
-  background-color: rgb(181, 218, 17);
-  box-shadow: 0 0 20px rgb(181, 218, 17);
+  background-color: rgb(215, 218, 17);
+  box-shadow: 0 0 20px rgb(215, 218, 17);
 }
 
 

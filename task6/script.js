@@ -1,5 +1,4 @@
 const trafficLights =document.querySelectorAll('.trafficLight')
-console.log(trafficLights)
 let activeLight = 2
 
 
