@@ -1,4 +1,5 @@
-let trafficLightEl = document.getElementById('#trafficLight');
+let trafficLightEl  = document.querySelector('.trafficLight')
+
 
 
 
