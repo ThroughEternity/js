@@ -1,11 +1,16 @@
 const trafficLights =document.querySelectorAll('.trafficLight')
+const container = document.querySelector('.container');
+console.log(container);
+
 let activeLight = 2
+console
 
-
-setInterval(() =>{
-    goLight()
-}, 2000);
-
+// setInterval(() =>{
+//     goLight()
+// }, 2000);
+container.addEventListener('click',function(){
+    goLight();
+});
 
 function goLight() {
     trafficLights[activeLight].className = 'trafficLight';
@@ -18,3 +23,4 @@ function goLight() {
     const currentLight = trafficLights[activeLight];
     currentLight.classList.add(currentLight.getAttribute('color'))
 }
+
